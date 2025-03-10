@@ -13,7 +13,7 @@ namespace PRACTICASEJERCICIOS.APPMVCCodeFirst.Migrations
         {
             migrationBuilder.CreateTable(
                 name: "Alumnos",
-                columns: table => new
+                columns: table => new 
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
